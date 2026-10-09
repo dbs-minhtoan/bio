@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nguyen Minh Toan · Backend Developer</title>
+  <meta name="description" content="Nguyen Minh Toan — Backend Developer (PHP/Laravel) and Team Lead with 9+ years of experience delivering web systems for Japanese clients.">
+  <meta name="author" content="Nguyen Minh Toan">
+  <meta property="og:title" content="Nguyen Minh Toan · Backend Developer (PHP/Laravel) & Team Lead">
+  <meta property="og:description" content="9+ years building web applications with PHP, Laravel and MySQL. Team lead for Japanese client projects.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="assets/avatar.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'%3ENT%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try { var t = localStorage.getItem('cv-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="toolbar no-print" role="toolbar" aria-label="Page actions">
+    <button class="tool-btn" id="themeToggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v2.5M12 20v2.5M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M1.5 12H4M20 12h2.5M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+    </button>
+    <button class="tool-btn tool-btn--primary" id="printBtn" type="button" title="Download as PDF">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 19h16"/></svg>
+      <span>Download PDF</span>
+    </button>
+  </div>
+
+  <main class="cv">
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img class="avatar" src="assets/avatar.jpg" alt="Portrait of Nguyen Minh Toan" width="300" height="400">
+        <h1 class="name">Nguyen Minh Toan</h1>
+        <p class="title"><span class="nowrap">Backend Developer (PHP)</span> <span aria-hidden="true">·</span> <span class="nowrap">Team Lead</span></p>
+      </div>
+
+      <section class="side-section" aria-labelledby="contact-h">
+        <h2 id="contact-h" class="side-heading">Contact</h2>
+        <ul class="contact">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M4 6l8 7 8-7"/></svg>
+            <a href="mailto:minhtoan95it@gmail.com">minhtoan95it@gmail.com</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3h3l1.6 4.5-2.1 1.3a11 11 0 0 0 6.1 6.1l1.3-2.1L21 14.4v3A2.6 2.6 0 0 1 18.4 20 15.4 15.4 0 0 1 4 5.6 2.6 2.6 0 0 1 6.6 3z"/></svg>
+            <a href="tel:+84775665658">(+84) 775 665 658</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <span>Can Tho, Vietnam</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+            <a href="https://www.linkedin.com/in/nguyen-toan-915a83145/" target="_blank" rel="noopener">linkedin.com/in/nguyen-toan</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+            <span>Born Oct 06, 1995</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="side-section" aria-labelledby="skills-h">
+        <h2 id="skills-h" class="side-heading">Technical Skills</h2>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <ul class="tags">
+            <li>PHP</li><li>Laravel</li><li>CakePHP</li><li>Yii</li><li>Python</li><li>RESTful API</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data &amp; Messaging</h3>
+          <ul class="tags">
+            <li>MySQL</li><li>Redis</li><li>Amazon SQS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>DevOps</h3>
+          <ul class="tags">
+            <li>Docker</li><li>Linux server setup</li><li>Deployer</li><li>Git</li><li>SVN</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Integrations</h3>
+          <ul class="tags">
+            <li>Firebase</li><li>SendGrid</li><li>Twilio SMS</li><li>Amazon Cognito</li><li>LINE</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>AI</h3>
+          <ul class="tags">
+            <li>LLM integration</li><li>Speech recognition (ASR)</li><li>Text-to-speech (TTS)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="side-section" aria-labelledby="soft-h">
+        <h2 id="soft-h" class="side-heading">Professional Skills</h2>
+        <ul class="bullets bullets--compact">
+          <li>Team leadership &amp; mentoring</li>
+          <li>Requirement analysis &amp; client Q&amp;A</li>
+          <li>Code review &amp; quality assurance</li>
+          <li>Database design</li>
+          <li>Teamwork and self-directed work</li>
+        </ul>
+      </section>
+
+      <section class="side-section" aria-labelledby="edu-h">
+        <h2 id="edu-h" class="side-heading">Education</h2>
+        <div class="edu">
+          <p class="edu-school">Can Tho University</p>
+          <p class="edu-major">Computer Science</p>
+          <p class="edu-meta">Oct 2013 – Sep 2017 · GPA 2.95 / 4.0</p>
+        </div>
+      </section>
+
+      <section class="side-section" aria-labelledby="int-h">
+        <h2 id="int-h" class="side-heading">Interests</h2>
+        <p class="muted">Reading, music, and action films.</p>
+      </section>
+    </aside>
+
+    <!-- ============ CONTENT ============ -->
+    <div class="content">
+      <section class="block" aria-labelledby="summary-h">
+        <h2 id="summary-h" class="heading">Professional Summary</h2>
+        <p class="lead">
+          Backend developer with <strong>9+ years of experience</strong> building and maintaining web applications
+          with <strong>PHP (Laravel, CakePHP, Yii)</strong> and <strong>MySQL</strong>, including several years leading
+          development teams on projects for <strong>Japanese clients</strong>. Experienced across the full delivery
+          cycle — requirement clarification, database design, API development, code review, server setup and
+          deployment — and, more recently, AI-powered applications using Python, speech recognition and LLMs.
+        </p>
+        <ul class="highlights">
+          <li><span class="hl-num">9+</span><span class="hl-label">years in software development</span></li>
+          <li><span class="hl-num">10+</span><span class="hl-label">projects delivered</span></li>
+          <li><span class="hl-num">5+</span><span class="hl-label">years in team lead roles</span></li>
+        </ul>
+      </section>
+
+      <section class="block" aria-labelledby="obj-h">
+        <h2 id="obj-h" class="heading">Career Objectives</h2>
+        <ul class="bullets">
+          <li>Design and build reliable, scalable and high-performance software systems.</li>
+          <li>Drive system optimization and continuous improvement within the organization.</li>
+          <li>Collaborate effectively in cross-functional teams and help teammates grow.</li>
+          <li>Grow with a forward-thinking organization, contributing to sustainable technology solutions while
+            continuously deepening my technical and leadership expertise.</li>
+        </ul>
+      </section>
+
+      <section class="block" aria-labelledby="exp-h">
+        <h2 id="exp-h" class="heading">Work Experience</h2>
+
+        <article class="job">
+          <header class="job-head">
+            <div>
+              <h3 class="job-company">Delta Brains JSC</h3>
+              <p class="job-role">Project Manager &amp; Team Leader</p>
+            </div>
+            <p class="job-date">Mar 2023 – Present</p>
+          </header>
+          <ul class="bullets">
+            <li>Lead the Vietnamese development team on projects for Japanese clients; plan tasks, track progress and ensure on-time delivery.</li>
+            <li>Clarify requirements with clients and review specifications and technical documents.</li>
+            <li>Review code against requirements and coding standards; provide technical guidance and support to team members.</li>
+            <li>Develop new features, optimize performance, and maintain and extend existing codebases.</li>
+          </ul>
+          <p class="job-projects">Key projects: <a href="#p-voicechat">Voicechat</a>, <a href="#p-shared-value">Shared Value</a>, <a href="#p-world-coffee">World Coffee</a></p>
+        </article>
+
+        <article class="job">
+          <header class="job-head">
+            <div>
+              <h3 class="job-company">Gumi Viet</h3>
+              <p class="job-role">PHP Developer</p>
+            </div>
+            <p class="job-date">Jul 2021 – Mar 2023</p>
+          </header>
+          <ul class="bullets">
+            <li>Developed and maintained Laravel applications for Japanese clients; mentored and led the team on the DMK-Point project.</li>
+            <li>Reviewed specifications and designed database schemas.</li>
+            <li>Set up servers and automated deployments using Deployer.</li>
+            <li>Customized existing code, optimized performance and resolved production bugs.</li>
+          </ul>
+          <p class="job-projects">Key projects: <a href="#p-dmk">DMK-Point</a>, <a href="#p-shouyu-booking">Shouyu Booking Class</a>, <a href="#p-shouyu">Shouyu</a></p>
+        </article>
+
+        <article class="job">
+          <header class="job-head">
+            <div>
+              <h3 class="job-company">HeadCapital</h3>
+              <p class="job-role">PHP Developer</p>
+            </div>
+            <p class="job-date">Jul 2020 – Jul 2021</p>
+          </header>
+          <ul class="bullets">
+            <li>Developed features for a performance-marketing platform built on Laravel and CakePHP.</li>
+            <li>Worked with Redis caching and Amazon SQS message queues.</li>
+            <li>Customized existing code, optimized performance and fixed bugs.</li>
+          </ul>
+          <p class="job-projects">Key project: <a href="#p-olacity">Olacity</a></p>
+        </article>
+
+        <article class="job">
+          <header class="job-head">
+            <div>
+              <h3 class="job-company">Posapp</h3>
+              <p class="job-role">Team Lead</p>
+            </div>
+            <p class="job-date">Aug 2017 – Jun 2020</p>
+          </header>
+          <ul class="bullets">
+            <li>Led a small development team building a point-of-sale system for the F&amp;B industry.</li>
+            <li>Designed and built RESTful APIs serving the mobile POS application.</li>
+            <li>Built an internal sales CRM end to end, from analysis and design to delivery.</li>
+            <li>Reviewed code, optimized performance and fixed bugs.</li>
+          </ul>
+          <p class="job-projects">Key projects: <a href="#p-posapp">PosApp</a>, <a href="#p-deals">DealsManage</a>, <a href="#p-kaisatu">Kaisatu</a></p>
+        </article>
+      </section>
+
+      <section class="block" aria-labelledby="proj-h">
+        <div class="heading-row">
+          <h2 id="proj-h" class="heading">Projects</h2>
+          <div class="filters no-print" role="group" aria-label="Filter projects by technology">
+            <button type="button" class="chip is-active" aria-pressed="true" data-filter="all">All</button>
+            <button type="button" class="chip" aria-pressed="false" data-filter="laravel">Laravel</button>
+            <button type="button" class="chip" aria-pressed="false" data-filter="cakephp">CakePHP</button>
+            <button type="button" class="chip" aria-pressed="false" data-filter="ai">AI / Python</button>
+          </div>
+        </div>
+
+        <article class="project" id="p-voicechat" data-tags="ai">
+          <header class="project-head">
+            <h3 class="project-name">Voicechat — AI Medical Pre-screening Chatbot</h3>
+            <p class="project-date">Mar 2025 – Present</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 2 · <strong>Team Lead (Vietnam team)</strong></p>
+          <p>
+            A voice-enabled chatbot that collects patient information before clinical visits using the
+            <strong>PQRST</strong> framework. Acting as a virtual physician, it asks follow-up questions based on reported
+            symptoms, captures voice input via speech recognition, and uses an LLM to analyze each answer and choose the
+            next question in real time. Once all PQRST information is gathered, it summarizes the conversation into a
+            structured report for physicians — shortening consultations and improving clinical preparation.
+          </p>
+          <ul class="bullets">
+            <li>Clarified requirements with the client and reviewed code against specifications.</li>
+            <li>Provided technical direction and day-to-day support to the team.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Python</li><li>ASR</li><li>TTS</li><li>LLM</li></ul>
+        </article>
+
+        <article class="project" id="p-shared-value" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">Shared Value — Raconne Job Referral Platform</h3>
+            <p class="project-date">Jun 2023 – Mar 2025</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 10 · <strong>Team Lead (Vietnam team)</strong></p>
+          <p>
+            A professional job referral platform connecting employers and job seekers. Job seekers can easily manage the
+            positions referred to them, while their personal data is protected using blockchain technology.
+          </p>
+          <ul class="bullets">
+            <li>Clarified requirements with the client and reviewed code against specifications.</li>
+            <li>Provided technical direction and supported team members.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel</li><li>MySQL</li><li>Blockchain</li></ul>
+        </article>
+
+        <article class="project" id="p-world-coffee" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">World Coffee — E-commerce Platform</h3>
+            <p class="project-date">Mar 2023 – Jun 2024</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 5 · <strong>Team Lead (Vietnam team)</strong></p>
+          <p>
+            An e-commerce platform for coffee products. Customers browse product categories, receive recommendations
+            tailored to their needs, and choose from the delivery services offered by the system.
+          </p>
+          <ul class="bullets">
+            <li>Clarified requirements with the client and reviewed code against specifications.</li>
+            <li>Provided technical direction and supported team members.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel</li><li>MySQL</li></ul>
+        </article>
+
+        <article class="project" id="p-dmk" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">DMK-Point — Reward Points Platform</h3>
+            <p class="project-date">May 2022 – Mar 2023</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 10 · <strong>Team Lead</strong></p>
+          <p>
+            A rewards platform where users complete tasks to earn points and redeem them for gifts via d-money GiftPad
+            and G-Point. Integrated with the AFAD, AccessTrade and Banner Bridge advertising networks.
+          </p>
+          <ul class="bullets">
+            <li>Designed the database schema and set up the server infrastructure.</li>
+            <li>Clarified requirements, reviewed code and provided technical support to the team.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel</li><li>MySQL</li><li>Deployer</li></ul>
+        </article>
+
+        <article class="project" id="p-shouyu-booking" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">Shouyu Booking Class — Class Registration System</h3>
+            <p class="project-date">Jul 2021 – May 2022</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 12 · <strong>Developer</strong></p>
+          <p>
+            A registration and management system for educational classes on the soy sauce production process, for
+            students and adults, with class statistics by prefecture and region.
+            <span class="links">
+              <a href="https://demae.soysauce.or.jp/application/#/" target="_blank" rel="noopener">User site</a>
+            </span>
+          </p>
+          <ul class="bullets">
+            <li>Developed class registration, expert assignment, and scheduled status updates and alerts.</li>
+            <li>Fixed bugs and supported deployments to the development environment.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel</li><li>MySQL</li><li>Deployer</li></ul>
+        </article>
+
+        <article class="project" id="p-shouyu" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">Shouyu — Member Management &amp; Reporting</h3>
+            <p class="project-date">Jul 2021 – Mar 2022</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 5 · <strong>Developer</strong></p>
+          <p>
+            Maintenance and feature expansion for an industry association website: member management, monthly and
+            yearly revenue statistics, and automated email reminders ahead of report deadlines.
+            <span class="links">
+              <a href="https://www.soysauce.or.jp/" target="_blank" rel="noopener">soysauce.or.jp</a>
+            </span>
+          </p>
+          <ul class="bullets">
+            <li>Built member management and monthly/yearly report submission features.</li>
+            <li>Implemented automated reminder emails before report submission deadlines.</li>
+            <li>Customized existing code and fixed bugs.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel 8</li><li>MySQL</li><li>Deployer</li></ul>
+        </article>
+
+        <article class="project" id="p-olacity" data-tags="laravel cakephp">
+          <header class="project-head">
+            <h3 class="project-name">Olacity — Performance Marketing Platform</h3>
+            <p class="project-date">Jul 2020 – Mar 2021</p>
+          </header>
+          <p class="project-meta">Advertisers &amp; end users · Team of 7 · <strong>Developer</strong></p>
+          <p>
+            A performance-based advertising platform where businesses promote products and services cost-effectively,
+            while users earn extra income by completing simple tasks — installing apps, watching ads, playing games,
+            taking surveys, referring products — or save through cashback programs.
+            <span class="links">
+              <a href="https://olacity.com" target="_blank" rel="noopener">olacity.com</a>
+            </span>
+          </p>
+          <ul class="bullets">
+            <li>Developed new features and customized existing modules.</li>
+            <li>Fixed bugs and improved performance with Redis caching and SQS queues.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel 5.8</li><li>CakePHP 3</li><li>Redis</li><li>Amazon SQS</li></ul>
+        </article>
+
+        <article class="project" id="p-posapp" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">PosApp — Point of Sale for F&amp;B</h3>
+            <p class="project-date">2017 – Jun 2020</p>
+          </header>
+          <p class="project-meta">Cafés, restaurants, bakeries, tea shops · Team of 3 · <strong>Developer</strong></p>
+          <p>
+            A mobile point-of-sale and management system for cafés, restaurants and bars that minimizes dependence on
+            cashiers. Owners can manage their business remotely from any device with 30+ charts, statistical reports
+            and business analytics; setup takes about five minutes.
+            <span class="links">
+              <a href="https://posapp.vn/" target="_blank" rel="noopener">posapp.vn</a>
+            </span>
+          </p>
+          <ul class="bullets">
+            <li>Developed features and RESTful APIs; reviewed and optimized code; fixed bugs.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Yii</li><li>Laravel 7</li></ul>
+        </article>
+
+        <article class="project" id="p-deals" data-tags="cakephp">
+          <header class="project-head">
+            <h3 class="project-name">DealsManage — Sales CRM</h3>
+            <p class="project-date">Mar 2018 – Jun 2020</p>
+          </header>
+          <p class="project-meta">Internal sales team · Solo project · <strong>Developer</strong></p>
+          <p>A CRM application that helps the sales team manage customers and deals.</p>
+          <ul class="bullets">
+            <li>Owned the project end to end: analysis, design, development, optimization and bug fixing.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>CakePHP</li><li>MySQL</li></ul>
+        </article>
+
+        <article class="project" id="p-kaisatu" data-tags="laravel">
+          <header class="project-head">
+            <h3 class="project-name">Kaisatu — Matching &amp; Reservation Platform</h3>
+            <p class="project-date">Jun 2018 – Jun 2020</p>
+          </header>
+          <p class="project-meta">Japanese client · Team of 4 · <strong>Team Lead</strong></p>
+          <p>
+            A matching and reservation platform featuring a patented matching system and a real-time chat feature.
+          </p>
+          <ul class="bullets">
+            <li>Led development; reviewed and optimized code; fixed bugs.</li>
+          </ul>
+          <ul class="tags tags--inline"><li>Laravel 5</li><li>PHP</li></ul>
+        </article>
+      </section>
+
+      <footer class="foot">
+        <p>© <span id="year">2026</span> Nguyen Minh Toan · <a href="mailto:minhtoan95it@gmail.com">minhtoan95it@gmail.com</a></p>
+      </footer>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
